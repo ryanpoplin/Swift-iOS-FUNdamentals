@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // calling an objective-c class...
+        // :Test?...
+        let instanceOfObjCObject:Test = Test()
+        instanceOfObjCObject.coreProp = "ByrdannFox"
+        println(instanceOfObjCObject.coreProp)
+        instanceOfObjCObject.coreMeth()
+        
         var f = 1782 - 695.44
         println(f)
         

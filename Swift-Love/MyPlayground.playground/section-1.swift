@@ -73,3 +73,10 @@ let nameGPA:String = "Jane Smith \(gpa)"
 let exactVal:double_t = 27.84838848484
 var operand1 = 47.98
 var operand2 = 78.881
+
+var pears = 5
+if pears >= 5 {
+    println("Sup?")
+} else {
+    println("Ay?")
+}

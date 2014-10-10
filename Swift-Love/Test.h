@@ -12,5 +12,8 @@
 
 @interface Test : NSObject
 
+@property (strong, nonatomic) id coreProp;
+
+- (void) coreMeth;
 
 @end
